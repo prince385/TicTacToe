@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="ScoreCard">Score Board</string>
+    <string name="Status">Status</string>
+    <string name="gridbox">gridBox</string>
+    <string name="description">0 or X</string>
+    <string name="reset">Reset Score</string>
+    <string name="play">Play Again</string>
+    <string name="oturn">0\'s Turn</string>
+    <string name="xturn">X\'s Turn</string>
+    <string name="hasWon"> Has won</string>
+    <string name="tap">Tap any empty grid</string>
+    <string name="player1">Player1</string>
+    <string name="player2">Player2</string>
+    <string name="_0">0</string>
+    <string name="background">background</string>
+    <string name="turn">\'s Turn: Tap Any Empty Grid</string>
+    <string name="ScrollView">ScrollView</string>
+</resources>
