@@ -26,15 +26,15 @@
             app:layout_constraintTop_toBottomOf="@id/status">
 
             <Button
-                android:id="@+id/reset"
+                android:id="@+id/finish"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20sp"
                 android:layout_weight="1"
                 android:maxWidth="150dp"
                 android:minWidth="88dp"
-                android:onClick="reset"
-                android:text="@string/reset"
+                android:onClick="onFinish"
+                android:text="@string/finish"
                 android:visibility="invisible" />
 
             <Button

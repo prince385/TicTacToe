@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#072A40"
+    android:contentDescription="@string/ScrollView">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        tools:context=".PlayerInfo">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="40dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/player" />
+
+                <EditText
+                    android:id="@+id/editTextPlayer1Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="Enter Name Here"
+                    android:ems="10"
+                    android:hint="@string/player1"
+                    android:inputType="textCapWords"
+                    android:minHeight="48dp"
+                    android:textAlignment="center"
+                    android:textColor="#7ADCF5"
+                    android:textColorHint="#319EDF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/player" />
+
+                <EditText
+                    android:id="@+id/editTextPlayer2Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/player2"
+                    android:autofillHints="Enter Name Here"
+                    android:inputType="textCapWords"
+                    android:minHeight="48dp"
+                    android:textAlignment="center"
+                    android:textColor="#7ADCF5"
+                    android:textColorHint="#319EDF" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/playNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/playNow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -8,12 +8,15 @@
     <string name="play">Play Again</string>
     <string name="oturn">0\'s Turn</string>
     <string name="xturn">X\'s Turn</string>
-    <string name="hasWon"> Has won</string>
+    <string name="hasWon">Has won</string>
     <string name="tap">Tap any empty grid</string>
     <string name="player1">Player1</string>
     <string name="player2">Player2</string>
+    <string name="playNow">Play</string>
     <string name="_0">0</string>
     <string name="background">background</string>
     <string name="turn">\'s Turn: Tap Any Empty Grid</string>
     <string name="ScrollView">ScrollView</string>
+    <string name="pleaseWait">Please Wait</string>
+    <string name="finish">Finish</string>
 </resources>
